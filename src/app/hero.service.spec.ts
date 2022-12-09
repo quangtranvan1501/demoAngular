@@ -1,4 +1,6 @@
+import { HttpHandler, HttpHeaders } from '@angular/common/http';
 import { TestBed } from '@angular/core/testing';
+import { catchError, Observable } from 'rxjs';
 
 import { HeroService } from './hero.service';
 
