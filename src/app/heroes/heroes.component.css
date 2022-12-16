@@ -1,13 +1,23 @@
 /* HeroesComponent's private CSS styles */
+.heroes_wapp{
+  display: flex;
+  flex-direction: row;
+}
 .heroes {
+  flex: 0.5;
   margin: 0 0 2em 0;
   list-style-type: none;
   padding: 0;
-  width: 15em;
+  min-width: 15em;
 }
 .heroes li {
   position: relative;
   cursor: pointer;
+}
+
+.list-item{
+  display: flex;
+  flex-direction: row;
 }
 
 .heroes li:hover {
@@ -51,4 +61,17 @@
   text-align: right;
   margin-right: .8em;
   border-radius: 4px 0 0 4px;
+}
+.heroes button {
+  margin: 4px;
+  padding: 8px;
+  background-color: red;
+}
+.heroes_add{
+  margin-left: 50px;
+  padding: 12px;
+  border-left: solid #333 2px;
+}
+.add-super{
+  margin-left: 12px;
 }
